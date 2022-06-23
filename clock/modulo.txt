@@ -1,0 +1,21 @@
+goos: windows
+goarch: amd64
+pkg: clock
+cpu: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+BenchmarkAddMinutes-16          351432085                3.525 ns/op           0 B/op          0 allocs/op
+BenchmarkAddMinutes-16          386497080                3.339 ns/op           0 B/op          0 allocs/op
+BenchmarkAddMinutes-16          421869144                3.417 ns/op           0 B/op          0 allocs/op
+BenchmarkAddMinutes-16          329993796                3.073 ns/op           0 B/op          0 allocs/op
+BenchmarkAddMinutes-16          430154701                3.707 ns/op           0 B/op          0 allocs/op
+BenchmarkSubtractMinutes-16     352128483                3.723 ns/op           0 B/op          0 allocs/op
+BenchmarkSubtractMinutes-16     413235092                3.305 ns/op           0 B/op          0 allocs/op
+BenchmarkSubtractMinutes-16     413802806                3.057 ns/op           0 B/op          0 allocs/op
+BenchmarkSubtractMinutes-16     402553395                3.088 ns/op           0 B/op          0 allocs/op
+BenchmarkSubtractMinutes-16     359786269                3.381 ns/op           0 B/op          0 allocs/op
+BenchmarkCreateClocks-16        144427290                8.115 ns/op           0 B/op          0 allocs/op
+BenchmarkCreateClocks-16        100000000               10.99 ns/op            0 B/op          0 allocs/op
+BenchmarkCreateClocks-16        144297450                9.319 ns/op           0 B/op          0 allocs/op
+BenchmarkCreateClocks-16        123758559                9.020 ns/op           0 B/op          0 allocs/op
+BenchmarkCreateClocks-16        148598088               10.00 ns/op            0 B/op          0 allocs/op
+PASS
+ok      clock   29.981s

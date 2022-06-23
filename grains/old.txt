@@ -1,0 +1,16 @@
+goos: windows
+goarch: amd64
+pkg: grains
+cpu: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+BenchmarkSquare-16       2294067               524.8 ns/op            48 B/op          3 allocs/op
+BenchmarkSquare-16       3195884               484.1 ns/op            48 B/op          3 allocs/op
+BenchmarkSquare-16       2358244               480.0 ns/op            48 B/op          3 allocs/op
+BenchmarkSquare-16       2865126               409.8 ns/op            48 B/op          3 allocs/op
+BenchmarkSquare-16       2390809               447.9 ns/op            48 B/op          3 allocs/op
+BenchmarkTotal-16         684457              1547 ns/op               0 B/op          0 allocs/op
+BenchmarkTotal-16         775568              1527 ns/op               0 B/op          0 allocs/op
+BenchmarkTotal-16        1000000              1488 ns/op               0 B/op          0 allocs/op
+BenchmarkTotal-16         782930              1523 ns/op               0 B/op          0 allocs/op
+BenchmarkTotal-16         790216              1505 ns/op               0 B/op          0 allocs/op
+PASS
+ok      grains  18.678s
