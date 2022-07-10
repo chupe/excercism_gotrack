@@ -1,0 +1,10 @@
+goos: windows
+goarch: amd64
+pkg: tree
+cpu: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+BenchmarkTwoTree
+BenchmarkTwoTree-16                    1        2792847600 ns/op         8782056 B/op     133356 allocs/op
+BenchmarkTenTree
+BenchmarkTenTree-16                   18          65342761 ns/op         1326308 B/op      15221 allocs/op
+BenchmarkShallowTree
+BenchmarkShallowTree-16               18          65298250 ns/op         1435939 B/op      10240 allocs/op

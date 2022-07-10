@@ -1,0 +1,21 @@
+goos: windows
+goarch: amd64
+pkg: tree
+cpu: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+BenchmarkTwoTree-16        	     118	  10150298 ns/op	 3407975 B/op	  131075 allocs/op
+BenchmarkTwoTree-16        	     122	   9150113 ns/op	 3407968 B/op	  131075 allocs/op
+BenchmarkTwoTree-16        	     132	   9115325 ns/op	 3407959 B/op	  131075 allocs/op
+BenchmarkTwoTree-16        	     129	   9246626 ns/op	 3407962 B/op	  131075 allocs/op
+BenchmarkTwoTree-16        	     122	  11947084 ns/op	 3407962 B/op	  131075 allocs/op
+BenchmarkTenTree-16        	     956	   1264509 ns/op	  650013 B/op	   15004 allocs/op
+BenchmarkTenTree-16        	     964	   1260871 ns/op	  650014 B/op	   15004 allocs/op
+BenchmarkTenTree-16        	     988	   1251604 ns/op	  650013 B/op	   15004 allocs/op
+BenchmarkTenTree-16        	     949	   1293032 ns/op	  650013 B/op	   15004 allocs/op
+BenchmarkTenTree-16        	     945	   1256978 ns/op	  650012 B/op	   15004 allocs/op
+BenchmarkShallowTree-16    	    1162	    985676 ns/op	  759636 B/op	   10023 allocs/op
+BenchmarkShallowTree-16    	    1230	    997512 ns/op	  759636 B/op	   10023 allocs/op
+BenchmarkShallowTree-16    	    1224	   1002322 ns/op	  759636 B/op	   10023 allocs/op
+BenchmarkShallowTree-16    	    1231	    996259 ns/op	  759636 B/op	   10023 allocs/op
+BenchmarkShallowTree-16    	    1200	   1038856 ns/op	  759635 B/op	   10023 allocs/op
+PASS
+ok  	tree	24.251s
