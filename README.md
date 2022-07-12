@@ -1,6 +1,6 @@
-Hello there,
+# excercism_gotrack
 
-My name is Adnan and the repo serves as record of my first attempts at Go.
+This repo serves as record of my first attempts at Go.
 
 The idea is to write Go code for some (if not all) of the exercises found on exercism.org on the Go track. My goal is to get more intimately familiar with the concepts explained there, as well as practice writing Go code.
 
